@@ -6,7 +6,8 @@ import "./sass/style.css";
 import AppRouter from './routers/AppRouter';
 import reportWebVitals from './reportWebVitals';
 import configureStore from './store/configureStore';
-import { addBlog,removeBlog,editBlog } from './actions/blogs'
+import { addBlog,removeBlog,editBlog } from './actions/blogs';
+import "./firebase/firebaseConfig";
 
 const store = configureStore();
 
